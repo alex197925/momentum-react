@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import { QuoteContainer, QuoteText } from "./QuoteStyles";
 
 const url = "https://type.fit/api/quotes";
 
@@ -22,10 +23,10 @@ const Quote = () => {
   console.log(data);
 
   return (
-    <div>
-      <p>{data[0].text}</p>
-      <p>- {data[0].author.substr(0, 13)}</p>
-    </div>
+    <QuoteContainer>
+      <QuoteText>{data[0].text}</QuoteText>
+      <QuoteText>- {data[0].author.substr(0, 13)}</QuoteText>
+    </QuoteContainer>
   );
 };
 

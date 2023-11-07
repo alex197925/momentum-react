@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import { WeatherContainer, Temp, City } from "./WeatherStyles";
 
 const url =
   "https://api.openweathermap.org/data/2.5/weather?q=antwerpen&units=metric&appid=2d8027559ee4c08ed99ff31fa9fb7e6e";
@@ -25,9 +26,10 @@ const Weather = () => {
   if (!data) return null;
 
   return (
-    <div>
-      <p>{data.main.temp.toFixed(0)}</p>
-    </div>
+    <WeatherContainer>
+      <Temp>{data.main.temp.toFixed(0)}&#xb0;</Temp>
+      <City>Antwerp, Belgium</City>
+    </WeatherContainer>
   );
 };
 
