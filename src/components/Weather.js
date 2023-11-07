@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 const url =
-  "https://api.openweathermap.org/data/2.5/weather?q=antwerpen&units=imperial&appid=2d8027559ee4c08ed99ff31fa9fb7e6e";
+  "https://api.openweathermap.org/data/2.5/weather?q=antwerpen&units=metric&appid=2d8027559ee4c08ed99ff31fa9fb7e6e";
 
 const Weather = () => {
   const [data, setData] = useState(null);
