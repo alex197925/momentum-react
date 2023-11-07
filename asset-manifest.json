@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/momentum-react/static/css/main.14f6f175.css",
+    "main.js": "/momentum-react/static/js/main.ba723f34.js",
+    "index.html": "/momentum-react/index.html",
+    "main.14f6f175.css.map": "/momentum-react/static/css/main.14f6f175.css.map",
+    "main.ba723f34.js.map": "/momentum-react/static/js/main.ba723f34.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14f6f175.css",
+    "static/js/main.ba723f34.js"
+  ]
+}
