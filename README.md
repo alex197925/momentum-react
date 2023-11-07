@@ -1,6 +1,10 @@
 # Link https://alex197925.github.io/momentum-react/
 
 
+# Project Description
+## Using Weather Open API to display weather
+## Using Unspalsh API display random images
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
